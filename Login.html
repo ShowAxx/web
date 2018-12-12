@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đăng nhập</title>
+	<meta charset="utf-8">
+	<script src="jquery.js"></script>
+	<script src="script.js"></script>
+	<style>
+body {
+margin-top: 20px;
+	padding:0;
+	background-color: pink;
+	font-family: 'Arial';
+}
+#header {
+	text-align: center;
+	color: #00ff;
+}
+h1 {
+	font-size: 18pt;
+}
+#form{
+	border: 1px solid #00ff;
+	width: 35%;
+	line-height: 40px;
+	margin-left: 32%;
+	color: #8C0209;
+}
+#pass{
+	margin-left: 40px;
+}
+#btlogin {
+	border-radius: 10px;
+	color: #8C0209;
+	margin-left: 35%;
+}
+form p {
+	margin-left: 10%;
+}
+	</style>
+</head>
+<body>
+	<img src="https://s3.amazonaws.com/hinh/logo.png" height="330px" width="1300px">
+	<div id="header">
+		<h1>Đăng Nhập Với Tư Cách Admin</h1>				
+	</div id="f1">
+		<div id="form">
+			<form name="f1" method="post" action="Bai.html">
+				<p>
+					Tên đăng nhập:
+					<input type="text" name="txtten" id="ten">*<span id="tbten" style="color: blue"></span>
+				</p>
+				<p>
+					Mật khẩu:
+					<input type="password" name="txtpass" id="pass">*<span id="tbpass" style="color: blue"></span>
+				</p>
+				<p>
+					<input type="submit" id="btlogin" value="Đăng nhập">
+				</p>
+
+			</form>
+		</div>
+</body>
+</html>
