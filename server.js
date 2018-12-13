@@ -10,7 +10,7 @@ http.createServer(function (req, res)
         let awsConfig = {
             "region": "us-east-1",
             "endpoint": "http://dynamodb.us-east-1.amazonaws.com",
-            "accessKeyId": "AKIAJ2BYR2BMXVR2TI6A", "secretAccessKey": "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"
+            "accessKeyId": "AKIAJBADTF45E3JDNL6A", "secretAccessKey": "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"
             };
           AWS.config.update(awsConfig);
             var docClient = new AWS.DynamoDB.DocumentClient();
